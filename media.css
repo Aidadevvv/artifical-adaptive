@@ -1,0 +1,151 @@
+@media (max-width: 1200px) {
+  .hero {
+    flex-direction: column-reverse;
+  }
+
+  .data {
+    flex-direction: column;
+  }
+  .blocks {
+    flex-wrap: wrap;
+  }
+  .box h2 {
+    font-size: 19px;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .hero-images img {
+    width: 200px;
+    padding: 0 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .blocks {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  .hero-images img {
+    width: 150px;
+    padding: 0 10px;
+  }
+}
+@media (max-width: 768px) {
+  .header-nav {
+    display: none;
+  }
+  .hero img {
+    width: 66%;
+  }
+  .hero-images img {
+    width: 100px;
+  }
+  .data img {
+    width: 300px;
+  }
+  .about img {
+    width: 70%;
+  }
+}
+@media (max-width: 480px) {
+  .hero-text h2 {
+    font-size: 10px;
+  }
+  .hero-text h1 {
+    width: 380px;
+    font-size: 20px;
+  }
+  .hero-text p {
+    width: 300px;
+  }
+  .hero-images {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 56px 0 20px 0;
+  }
+  #data {
+    padding: 2px 0;
+  }
+  .data img {
+    width: 50%;
+  }
+  .data-text h1 {
+    width: 300px;
+  }
+  .data-text p {
+    width: 300px;
+  }
+  #about {
+    padding: 50px 0;
+  }
+  .about-text h3 {
+    width: 300px;
+  }
+  .about-text p {
+    width: 280px;
+  }
+  .box {
+    width: 300px;
+  }
+  #footer {
+    padding: 18px 35px;
+  }
+  .footer-info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 320px) {
+  .header-logo h3 {
+    font-size: 17px;
+  }
+  .header-login button {
+    padding: 8px 10px;
+  }
+  .hero-text h1 {
+    width: 170px;
+  }
+  .hero-text p {
+    width: 260px;
+  }
+  .hero-text button {
+    padding: 15px;
+
+    font-size: 10px;
+  }
+  .data-text h1 {
+    /* width: 200px; */
+    font-size: 30px;
+  }
+  .data-text p {
+    width: 200px;
+  }
+  .about-text h3 {
+    width: 200px;
+    font-size: 34px;
+  }
+
+  .about-text p {
+    width: 200px;
+  }
+  .box {
+    width: 230px;
+  }
+  .box h2 {
+    font-style: 10px;
+  }
+  .box p {
+    font-size: 13px;
+  }
+  .footer-logo .footer-lorem {
+    width: 160px;
+  }
+  .footer-about p {
+    width: 200px;
+  }
+}
